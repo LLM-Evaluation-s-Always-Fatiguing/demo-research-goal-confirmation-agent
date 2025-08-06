@@ -1,0 +1,9 @@
+[project]
+name = "demo-research-goal-clarification-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "agno[groq,openai,dev,storage,tools]>=1.7.7",
+]
